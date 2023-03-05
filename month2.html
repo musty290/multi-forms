@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img class="bg__header" src="images/bg-sidebar-mobile.svg" alt="" />
+    <div class="background__body">
+      <div class="card card__month2">
+        <div class="card__content">
+          <div class="aside">
+            <div class="bg__aside">
+              <img
+                class="bg_header-desktop"
+                src="images/bg-sidebar-desktop.svg"
+              />
+              <ul class="bg__content">
+                <li class="bg__content-header">STEP 1</li>
+                <li>YOUR INFO</li>
+              </ul>
+              <ul class="bg__content">
+                <li class="bg__content-header">STEP 2</li>
+                <li>SELECT PLAN</li>
+              </ul>
+              <ul class="bg__content">
+                <li class="bg__content-header">STEP 3</li>
+                <li>ADD-ONS</li>
+              </ul>
+              <ul class="bg__content">
+                <li class="bg__content-header">STEP 4</li>
+                <li>SUMMARY</li>
+              </ul>
+            </div>
+
+            <div class="aside__content">
+              <h1>Select your Plan</h1>
+              <p>You have the option of monthly or yearly billing.</p>
+              <button class="btn-plan">
+                <svg class="icon">
+                  <use xlink:href="images/sprite.svg#icon-arcade"></use>
+                </svg>
+                <p class="icon-name">Acrade</p>
+                <p class="icon-price">$9/mon</p>
+              </button>
+              <button class="btn-plan--non">
+                <svg class="icon">
+                  <use xlink:href="images/sprite.svg#icon-advanced"></use>
+                </svg>
+                <p class="icon-name">Advanced</p>
+                <p class="icon-price">$12/ mon</p>
+              </button>
+              <button class="btn-plan--non btn-pro">
+                <svg class="icon">
+                  <use xlink:href="images/sprite.svg#icon-pro"></use>
+                </svg>
+                <p class="icon-name">Pro</p>
+                <p class="icon-price">$15/ mon</p>
+              </button>
+              <button class="plan">
+                <span class="plan__content">
+                  <span class="plan__monthly">Monthly</span>
+                  <svg
+                    class="toggle"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M192 64C86 64 0 150 0 256S86 448 192 448H384c106 0 192-86 192-192s-86-192-192-192H192zm192 96a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"
+                    />
+                  </svg>
+                  <span class="plan__yearly">yearly</span>
+                </span>
+              </button>
+              <div class="footer">
+                <span>Go Back</span>
+                <button class="btn-small">Next Step</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="yearly2.html">yearly2</a>
+  </body>
+</html>
